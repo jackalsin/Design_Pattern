@@ -1,3 +1,4 @@
+package ObserverPattern;
 
 public class Main {
     

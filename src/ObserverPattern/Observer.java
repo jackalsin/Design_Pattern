@@ -1,3 +1,4 @@
+package ObserverPattern;
 
 /**
  * The Observers are called when subject changes
@@ -5,5 +6,5 @@
  *
  */
 public interface Observer {
-    public void update(double ibmPrice, double aaplPrice, double googPrice);
+    void update(double ibmPrice, double aaplPrice, double googPrice);
 }

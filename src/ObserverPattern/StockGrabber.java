@@ -1,5 +1,11 @@
+package ObserverPattern;
+
 import java.util.ArrayList;
 
+/** This is the content generate
+ * @author jacka
+ *
+ */
 public class StockGrabber implements Subject {
     
     private ArrayList<Observer> observers;

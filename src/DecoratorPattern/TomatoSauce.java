@@ -13,7 +13,7 @@ public class TomatoSauce extends ToppingDecorator{
     }
 
     public String getDescription() {
-        return tempPizza.getDescription() + " , Mozzarella";
+        return tempPizza.getDescription() + " , Tomato Sauce";
     }
 
     public double getCost() {

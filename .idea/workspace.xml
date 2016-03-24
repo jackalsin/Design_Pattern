@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c81924c-0503-4c7d-bf89-b4412877f006" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DecoratorPattern/Pizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DecoratorPattern/PlainPiazza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ObserverPattern/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ObserverPattern/Observer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ObserverPattern/StockGrabber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ObserverPattern/StockObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ObserverPattern/Subject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StrategyPattern/Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StrategyPattern/Bird.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StrategyPattern/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StrategyPattern/Flys.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StrategyPattern/Main.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ObserverPattern/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ObserverPattern/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ObserverPattern/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ObserverPattern/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ObserverPattern/src/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ObserverPattern/src/Observer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ObserverPattern/src/StockGrabber.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ObserverPattern/src/StockObserver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ObserverPattern/src/Subject.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DecoratorPattern/Mozzarella.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DecoratorPattern/TomatoSauce.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DecoratorPattern/ToppingDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DecoratorPattern/PlainPiazza.java" afterPath="$PROJECT_DIR$/src/DecoratorPattern/PlainPiazza.java" />
     </list>
     <ignored path="Design_Pattern.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,19 +32,39 @@
       <file leaf-file-name="Pizza.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/Pizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="165">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlainPiazza.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/PlainPiazza.java">
+      <file leaf-file-name="Mozzarella.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/Mozzarella.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="660">
+              <caret line="20" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TomatoSauce.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/TomatoSauce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+              <folding>
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +98,10 @@
         <option value="$PROJECT_DIR$/src/StrategyPattern/Main.java" />
         <option value="$PROJECT_DIR$/src/DecoratorPattern/Pizza.java" />
         <option value="$PROJECT_DIR$/src/DecoratorPattern/PlainPiazza.java" />
+        <option value="$PROJECT_DIR$/src/ToppingDecorator.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/ToppingDecorator.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/Mozzarella.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/TomatoSauce.java" />
       </list>
     </option>
   </component>
@@ -584,17 +593,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="165">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/PlainPiazza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="462">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/ToppingDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="24" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/Mozzarella.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/TomatoSauce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

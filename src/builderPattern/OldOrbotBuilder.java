@@ -26,7 +26,7 @@ public class OldOrbotBuilder implements RobotBuilder {
 
     @Override
     public void buildRobotArms() {
-        robot.setRobotArm("Blowtorch Arams");
+        robot.setRobotArm("Blowtorch Arms"); //  火焰喷枪
     }
 
     public Robot getRobot() {

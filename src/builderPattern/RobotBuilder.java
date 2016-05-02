@@ -10,4 +10,5 @@ public interface RobotBuilder {
     void buildRobotTorso();
     void buildRobotLegs();
     void buildRobotArms();
+    Robot getRobot();
 }

@@ -1,4 +1,4 @@
-package builderPattern;
+package builderPatternWithRobot;
 
 /**
  * @author jacka

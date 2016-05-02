@@ -23,6 +23,6 @@ public class EnemyRobotAdapter implements EnemyAttacker {
 
     @Override
     public void setDriver(String name) {
-        robot.setDriver(names);
+        robot.setDriver(name);
     }
 }

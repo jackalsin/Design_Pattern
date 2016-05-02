@@ -1,0 +1,35 @@
+package builderPattern;
+
+/**
+ * @author jacka
+ * @version 1.0.0 on 5/2/2016.
+ */
+public class OldOrbotBuilder implements RobotBuilder {
+
+    private Robot robot;
+
+    public OldOrbotBuilder() {this.robot = new Robot();}
+    @Override
+    public void buildRobotHead() {
+        robot.setRobotHead("Tin Head ");
+    }
+
+    @Override
+    public void buildRobotTorso() {
+        robot.setRobotTorso("Tin Torso ");
+    }
+
+    @Override
+    public void buildRobotLegs() {
+        robot.setRobotLeg("Rollar Skates");
+    }
+
+    @Override
+    public void buildRobotArms() {
+        robot.setRobotArm("Blowtorch Arams");
+    }
+
+    public Robot getRobot() {
+        return this.robot;
+    }
+}

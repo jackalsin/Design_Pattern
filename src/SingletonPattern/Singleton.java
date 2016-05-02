@@ -61,6 +61,6 @@ public final class Singleton {
     }
 
     public LinkedList<String> getTiles(int howManyTiles) {
-
+        return null;
     }
 }

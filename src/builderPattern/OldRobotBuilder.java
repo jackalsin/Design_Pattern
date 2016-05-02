@@ -4,11 +4,11 @@ package builderPattern;
  * @author jacka
  * @version 1.0.0 on 5/2/2016.
  */
-public class OldOrbotBuilder implements RobotBuilder {
+public class OldRobotBuilder implements RobotBuilder {
 
     private Robot robot;
 
-    public OldOrbotBuilder() {this.robot = new Robot();}
+    public OldRobotBuilder() {this.robot = new Robot();}
     @Override
     public void buildRobotHead() {
         robot.setRobotHead("Tin Head ");

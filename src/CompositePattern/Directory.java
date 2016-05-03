@@ -23,9 +23,12 @@ public class Directory implements AbstractFile {
 
     @Override
     public void ls() {
-        System.out.println("Directory " + name);
+        System.out.println(CompositeDemo.gIndent + name);
+        CompositeDemo.gIndent.append("\t");
         for (int i =0 ; i < files.size(); i++) {
             files.get(i).ls();
         }
+        CompositeDemo.gIndent.setLength(CompositeDemo.gIndent.length() - 1);
+
     }
 }

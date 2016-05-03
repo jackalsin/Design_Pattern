@@ -15,6 +15,6 @@ public class File implements AbstractFile {
 
     @Override
     public void ls() {
-        System.out.println("File: " + name);
+        System.out.println(CompositeDemo.gIndent + name);
     }
 }

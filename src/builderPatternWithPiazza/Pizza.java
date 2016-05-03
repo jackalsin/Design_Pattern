@@ -1,6 +1,9 @@
 package builderPatternWithPiazza;
 
 /**
+ * The first step.
+ * The thing you want to create.
+ *
  * @author jacka
  * @version 1.0.0 on 5/2/2016.
  */

@@ -1,6 +1,7 @@
 package builderPatternWithPiazza;
 
 /**
+ * Step 3: Create a concrete class
  * @author jacka
  * @version 1.0.0 on 5/2/2016.
  */

@@ -1,6 +1,8 @@
 package builderPatternWithPiazza;
 
 /**
+ * A wrapper function. The main idea is the wrap the pizzaBuilder
+ *
  * @author jacka
  * @version 1.0.0 on 5/2/2016.
  */

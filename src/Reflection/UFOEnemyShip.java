@@ -5,7 +5,7 @@ package Reflection;
  */
 public class UFOEnemyShip extends EnemyShip {
 
-    private String incode = "100";
+    private String idcode = "100";
 
 
     private String getPrivate() {
@@ -20,7 +20,7 @@ public class UFOEnemyShip extends EnemyShip {
         System.out.println("You sent: " + number + " " + randString);
     }
 
-    
+
     /**
      * The constructor.
      */

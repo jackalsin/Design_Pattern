@@ -1,7 +1,9 @@
 package Reflection;
 
 /**
- * Created by jacka on 3/24/2016.
+ *
+ * @author jacka
+ * @version 1.0.0 on 3/24/2016.
  */
 public class EnemyShipFactory {
 

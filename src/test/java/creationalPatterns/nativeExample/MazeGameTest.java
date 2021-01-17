@@ -1,24 +1,16 @@
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.MethodSource;
+package creationalPatterns.nativeExample;
 
-import java.util.stream.Stream;
-
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 /**
  * @author zhixi
  * @version 1.0 on 1/16/2021
- */class MazeGameTest {
-  
-  @ParameterizedTest
-  @MethodSource("solutionProvider")
-  void testOnlineCase1(Solution solution) {
-    
+ */
+class MazeGameTest {
+
+  @Test
+  void testOnlineCase1() {
+    MazeGame.createmaze();
   }
 
-  static Stream<Solution> solutionProvider() {
-    return Stream.of(
-        new SolutionI()
-    );
-  }
 }

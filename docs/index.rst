@@ -18,3 +18,26 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+Creational Patterns
+===================
+
+.. toctree::
+   :maxdepth: 3
+   :hidden:
+   :caption: Creational Patterns
+
+   /creational-patterns/abstract-factory-patterns
+
+
+Structural Patterns
+===================
+
+.. 对toc有用的是这个
+
+.. toctree::
+   :maxdepth: 3
+   :hidden:
+   :caption: Structural Patterns
+
+   /creational-patterns/abstract-factory-patterns

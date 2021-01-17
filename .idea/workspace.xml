@@ -1,54 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c81924c-0503-4c7d-bf89-b4412877f006" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Interpreter/ConversionContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ProxyPattern/ATMMachine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ProxyPattern/ATMState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ProxyPattern/GetATMData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="807df14c-9f53-44c5-a546-5138f43332ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/creational-patterns/abstract-factory-patterns.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creationalPatterns/abstractFactoryPattern/client/ProductA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creationalPatterns/abstractFactoryPattern/client/ProductB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creationalPatterns/abstractFactoryPattern/system/abstractFactory/MazeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creationalPatterns/abstractFactoryPattern/system/abstractFactory/MazeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creationalPatterns/abstractFactoryPattern/system/concreteFactory/BombedMazeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creationalPatterns/abstractFactoryPattern/system/concreteFactory/BombedWall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/creationalPatterns/abstractFactoryPattern/system/MazeGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/findbugs-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.readthedocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.readthedocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design_Pattern.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/AdapterDesignPattern/AdapterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/AdapterDesignPattern/EnemyAttacker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/AdapterDesignPattern/EnemyRobot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/AdapterDesignPattern/EnemyRobotAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/AdapterDesignPattern/EnemyTank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/AdapterDesignPattern/TestEnemyAttacker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/CompositePattern/AbstractFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/CompositePattern/CompositeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/CompositePattern/Directory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/CompositePattern/File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/DecoratorPattern/Mozzarella.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/DecoratorPattern/Pizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/DecoratorPattern/PizzaMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/DecoratorPattern/PlainPiazza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/DecoratorPattern/TomatoSauce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/DecoratorPattern/ToppingDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/Flyweight/FlyWeightTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/Flyweight/MyRect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/IteratorPattern/DisJockey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/IteratorPattern/RadioStation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/IteratorPattern/SongInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/IteratorPattern/SongIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/IteratorPattern/SongsOfThe70s.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/IteratorPattern/SongsOfThe80s.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/IteratorPattern/SongsOfThe90s.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/ObserverPattern/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/ObserverPattern/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/ObserverPattern/StockGrabber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/ObserverPattern/StockObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/ObserverPattern/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/Reflection/EnemyShip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/Reflection/EnemyShipFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/Reflection/EnemyShipTesting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/Reflection/ReflectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/Reflection/RocketShip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/Reflection/UFOEnemyShip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/SingletonPattern/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/SingletonPattern/SingletonPatternTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/StrategyPattern/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/StrategyPattern/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/StrategyPattern/CantFly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/StrategyPattern/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/StrategyPattern/Flys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/StrategyPattern/Itflys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/StrategyPattern/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/TestMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/builderPatternWithPiazza/BuilderPizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/builderPatternWithPiazza/HawaiianPizzaBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/builderPatternWithPiazza/Pizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/builderPatternWithPiazza/PizzaBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/builderPatternWithPiazza/ReadMe.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/builderPatternWithPiazza/SpicyPizzaBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/builderPatternWithPiazza/Waiter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/builderPatternWithRobot/OldRobotBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/builderPatternWithRobot/Robot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/builderPatternWithRobot/RobotBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/builderPatternWithRobot/RobotEngineer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/builderPatternWithRobot/RobotPlan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/builderPatternWithRobot/TestRobotBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/commandPattern/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/commandPattern/DeviceButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/commandPattern/ElectronicDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/commandPattern/PlayWithRemote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/commandPattern/Television.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/commandPattern/TurnTvOff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/commandPattern/TurnTvOn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/commandPattern/TurnVolumeDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/commandPattern/TurnVolumeUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/commandPattern/TvRemote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/facadePattern/FacadeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/facadePattern/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/facadePattern/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/facadePattern/PointCarte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/facadePattern/PointPolar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/facadePattern/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/factoryPattern/EnemyShip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/factoryPattern/EnemyShipFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/factoryPattern/EnemyShipTesting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/factoryPattern/RocketShip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/factoryPattern/UFOEnemyShip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/prototypeDesignPattern/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/prototypeDesignPattern/Prototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/prototypeDesignPattern/PrototypeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/prototypeDesignPattern/PrototypesModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/prototypeDesignPattern/That.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/prototypeDesignPattern/TheOther.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/prototypeDesignPattern/This.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/prototypePattern/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/prototypePattern/CloneFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/prototypePattern/Sheep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Pattern/prototypePattern/TestCloning.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdapterDesignPattern/AdapterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdapterDesignPattern/EnemyAttacker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdapterDesignPattern/EnemyRobot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdapterDesignPattern/EnemyRobotAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdapterDesignPattern/EnemyTank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdapterDesignPattern/TestEnemyAttacker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompositePattern/AbstractFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompositePattern/CompositeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompositePattern/Directory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompositePattern/File.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/Mozzarella.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/PizzaMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/PlainPiazza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/TomatoSauce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/ToppingDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/EnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/EnemyShipFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/EnemyShipTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/RocketShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/UFOEnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flyweight/FlyWeightTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flyweight/MyRect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/ConversionContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IteratorPattern/DisJockey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IteratorPattern/RadioStation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IteratorPattern/SongInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IteratorPattern/SongIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IteratorPattern/SongsOfThe70s.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IteratorPattern/SongsOfThe80s.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IteratorPattern/SongsOfThe90s.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/StockGrabber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/StockObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProxyPattern/ATMMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProxyPattern/ATMState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProxyPattern/GetATMData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reflection/EnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reflection/EnemyShipFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reflection/EnemyShipTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reflection/ReflectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reflection/RocketShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reflection/UFOEnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingletonPattern/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingletonPattern/SingletonPatternTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/Bird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/Flys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyPattern/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builderPatternWithPiazza/BuilderPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builderPatternWithPiazza/HawaiianPizzaBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builderPatternWithPiazza/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builderPatternWithPiazza/PizzaBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builderPatternWithPiazza/ReadMe.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builderPatternWithPiazza/SpicyPizzaBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builderPatternWithPiazza/Waiter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builderPatternWithRobot/OldRobotBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builderPatternWithRobot/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builderPatternWithRobot/RobotBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builderPatternWithRobot/RobotEngineer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builderPatternWithRobot/RobotPlan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builderPatternWithRobot/TestRobotBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commandPattern/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commandPattern/DeviceButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commandPattern/ElectronicDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commandPattern/PlayWithRemote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commandPattern/Television.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commandPattern/TurnTvOff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commandPattern/TurnTvOn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commandPattern/TurnVolumeDown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commandPattern/TurnVolumeUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commandPattern/TvRemote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/facadePattern/FacadeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/facadePattern/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/facadePattern/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/facadePattern/PointCarte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/facadePattern/PointPolar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/facadePattern/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creationalPatterns/model/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creationalPatterns/model/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creationalPatterns/model/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creationalPatterns/model/Door.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creationalPatterns/model/MapSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creationalPatterns/model/MapSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creationalPatterns/model/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creationalPatterns/model/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creationalPatterns/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creationalPatterns/model/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creationalPatterns/model/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creationalPatterns/model/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creationalPatterns/nativeExample/MazeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creationalPatterns/nativeExample/MazeGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototypeDesignPattern/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototypeDesignPattern/Prototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototypeDesignPattern/PrototypeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototypeDesignPattern/PrototypesModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototypeDesignPattern/That.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototypeDesignPattern/TheOther.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototypeDesignPattern/This.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototypePattern/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototypePattern/CloneFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototypePattern/Sheep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototypePattern/TestCloning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/creationalPatterns/nativeExample/MazeGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/creationalPatterns/nativeExample/MazeGameTest.java" afterDir="false" />
     </list>
-    <ignored path="Design_Pattern.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="Design_Pattern" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="ConversionContext.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Interpreter/ConversionContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding>
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -56,1069 +239,54 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/prototypePattern/Sheep.java" />
-        <option value="$PROJECT_DIR$/src/prototypePattern/CloneFactory.java" />
-        <option value="$PROJECT_DIR$/src/prototypePattern/TestCloning.java" />
-        <option value="$PROJECT_DIR$/src/prototypeDesignPattern/Prototype.java" />
-        <option value="$PROJECT_DIR$/src/prototypeDesignPattern/Command.java" />
-        <option value="$PROJECT_DIR$/src/prototypeDesignPattern/PrototypesModule.java" />
-        <option value="$PROJECT_DIR$/src/prototypeDesignPattern/That.java" />
-        <option value="$PROJECT_DIR$/src/prototypeDesignPattern/TheOther.java" />
-        <option value="$PROJECT_DIR$/src/prototypeDesignPattern/PrototypeDemo.java" />
-        <option value="$PROJECT_DIR$/src/prototypeDesignPattern/This.java" />
-        <option value="$PROJECT_DIR$/src/ReflectionTutorial/UFO.java" />
-        <option value="$PROJECT_DIR$/src/factoryPattern/UFOEnemyShip.java" />
-        <option value="$PROJECT_DIR$/src/Reflection/EnemyShip.java" />
-        <option value="$PROJECT_DIR$/src/Reflection/EnemyShipFactory.java" />
-        <option value="$PROJECT_DIR$/src/Reflection/UFOEnemyShip.java" />
-        <option value="$PROJECT_DIR$/src/Reflection/ReflectionTest.java" />
-        <option value="$PROJECT_DIR$/src/commandPattern/ElectronicDevice.java" />
-        <option value="$PROJECT_DIR$/src/commandPattern/Television.java" />
-        <option value="$PROJECT_DIR$/src/commandPattern/Command.java" />
-        <option value="$PROJECT_DIR$/src/commandPattern/TurnTvOn.java" />
-        <option value="$PROJECT_DIR$/src/commandPattern/TurnTvOff.java" />
-        <option value="$PROJECT_DIR$/src/commandPattern/TurnVolumeDown.java" />
-        <option value="$PROJECT_DIR$/src/commandPattern/TurnVolumeUp.java" />
-        <option value="$PROJECT_DIR$/src/commandPattern/DeviceButton.java" />
-        <option value="$PROJECT_DIR$/src/commandPattern/TvRemote.java" />
-        <option value="$PROJECT_DIR$/src/commandPattern/PlayWithRemote.java" />
-        <option value="$PROJECT_DIR$/src/facadePattern/ReadMe.md" />
-        <option value="$PROJECT_DIR$/src/facadePattern/Point.java" />
-        <option value="$PROJECT_DIR$/src/facadePattern/PointImpl.java" />
-        <option value="$PROJECT_DIR$/src/facadePattern/Line.java" />
-        <option value="$PROJECT_DIR$/src/facadePattern/FacadeDemo.java" />
-        <option value="$PROJECT_DIR$/src/facadePattern/PointPolar.java" />
-        <option value="$PROJECT_DIR$/src/facadePattern/PointCarte.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/SongInfo.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/SongsOfThe70s.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/SongInfoIterator.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/SongsOfThe90s.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/SongsOfThe80s.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/DisJockey.java" />
-        <option value="$PROJECT_DIR$/src/IteratorPattern/RadioStation.java" />
-        <option value="$PROJECT_DIR$/src/CompositePattern/AbstractFile.java" />
-        <option value="$PROJECT_DIR$/src/CompositePattern/CompositeDemo.java" />
-        <option value="$PROJECT_DIR$/src/CompositePattern/File.java" />
-        <option value="$PROJECT_DIR$/src/CompositePattern/Directory.java" />
-        <option value="$PROJECT_DIR$/src/TestMain.java" />
-        <option value="$PROJECT_DIR$/src/Flyweight/MyRect.java" />
-        <option value="$PROJECT_DIR$/src/Flyweight/FlyWeightTest.java" />
-        <option value="$PROJECT_DIR$/src/ProxyPattern/GetATMData.java" />
-        <option value="$PROJECT_DIR$/src/ProxyPattern/ATMMachine.java" />
-        <option value="$PROJECT_DIR$/src/ProxyPattern/ATMState.java" />
-        <option value="$PROJECT_DIR$/src/Interpreter/ConversionContext.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1357" />
-    <option name="width" value="1390" />
-    <option name="height" value="1755" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design_Pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design_Pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design_Pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design_Pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interpreter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1nAhPY0XTV4U2ksGbYfwZOXwLoH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jacka\OneDrive\Code_Temp\Java\Design_Pattern\src\Reflection" />
-      <recent name="C:\Users\jacka\OneDrive\Code_Temp\Java\Design_Pattern\src\ObserverPattern" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jacka\OneDrive\Code_Temp\Java\Design_Pattern\src\StrategyPattern" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="creationalPatterns.abstractFactoryPattern.system" />
+      <recent name="creationalPatterns.nativeExample" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="creationalPatterns.abstractFactoryPattern.client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlyWeightTest">
-    <configuration default="false" name="FacadeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="facadePattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="facadePattern.FacadeDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Design_Pattern" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RadioStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="IteratorPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="IteratorPattern.RadioStation" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Design_Pattern" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="CompositeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="CompositePattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="CompositePattern.CompositeDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Design_Pattern" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="TestMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Design_Pattern" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="FlyWeightTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Flyweight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Flyweight.FlyWeightTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Design_Pattern" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Design_Pattern" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="DecoratorPattern" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="DecoratorPattern.PizzaMaker" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Design_Pattern" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="FactoryPatternMakeShip" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Reflection.EnemyShipTesting" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Design_Pattern" />
-      <envs />
-      <method />
-    </configuration>
-    <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Application.DecoratorPattern" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FactoryPatternMakeShip" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FacadeDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RadioStation" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CompositeDemo" />
-      <item index="5" class="java.lang.String" itemvalue="Application.TestMain" />
-      <item index="6" class="java.lang.String" itemvalue="Application.FlyWeightTest" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FlyWeightTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CompositeDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RadioStation" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FacadeDemo" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7c81924c-0503-4c7d-bf89-b4412877f006" name="Default" comment="" />
-      <created>1458828533453</created>
+      <changelist id="807df14c-9f53-44c5-a546-5138f43332ce" name="Default Changelist" comment="" />
+      <created>1610838780639</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1458828533453</updated>
-      <workItem from="1462195737382" duration="19740000" />
-      <workItem from="1462251339516" duration="12551000" />
+      <updated>1610838780639</updated>
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32291000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1357" y="0" width="1390" height="1755" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33444148" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4130094" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934355" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934355" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33479214" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29978117" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="7" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ReflectionTutorial.java" />
-    <entry file="file://$PROJECT_DIR$/src/prototypeDesignPattern/PrototypesModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReflectionTutorial/UFO.java" />
-    <entry file="file://$PROJECT_DIR$/src/factoryPattern/EnemyShip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factoryPattern/EnemyShipFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factoryPattern/EnemyShipTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factoryPattern/RocketShip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factoryPattern/UFOEnemyShip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reflection/EnemyShip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reflection/EnemyShipTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reflection/RocketShip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reflection/EnemyShipFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reflection/UFOEnemyShip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commandPattern.java" />
-    <entry file="file://$PROJECT_DIR$/src/Reflection/ReflectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commandPattern/ElectronicDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commandPattern/Television.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commandPattern/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commandPattern/TurnTvOn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commandPattern/TurnTvOff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commandPattern/TurnVolumeUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commandPattern/DeviceButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commandPattern/TvRemote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commandPattern/PlayWithRemote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commandPattern/TurnVolumeDown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/facadePattern/ReadMe.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/facadePattern/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/facadePattern/Line.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/facadePattern/FacadeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/facadePattern/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/facadePattern/PointPolar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/facadePattern/PointCarte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/SongInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/SongsOfThe90s.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/SongsOfThe70s.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1060#1061#0" expanded="false" />
-            <element signature="e#1103#1104#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/SongIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/SongsOfThe80s.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1261">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/DisJockey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1686">
-          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/RadioStation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompositePattern/AbstractFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompositePattern/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="e#254#255#0" expanded="false" />
-            <element signature="e#318#319#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompositePattern/Directory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="30" column="74" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompositePattern/CompositeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flyweight/FlyWeightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#2090#2091#0" expanded="true" />
-            <element signature="e#2146#2147#0" expanded="true" />
-            <element signature="e#2177#2178#0" expanded="true" />
-            <element signature="e#2234#2235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flyweight/MyRect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/ATMMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding>
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/GetATMData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyPattern/ATMState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interpreter/ConversionContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

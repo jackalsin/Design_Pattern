@@ -28,6 +28,7 @@ Creational Patterns
    :caption: Creational Patterns
 
    /creational-patterns/abstract-factory-patterns
+   /creational-patterns/factory-pattern
 
 
 Structural Patterns

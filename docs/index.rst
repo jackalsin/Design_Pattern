@@ -29,6 +29,7 @@ Creational Patterns
 
    /creational-patterns/abstract-factory-patterns
    /creational-patterns/factory-pattern
+   /creational-patterns/prototype-pattern
 
 
 Structural Patterns
